@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.2" />
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="white" filter="url(#shadow)" />
+  
+  <!-- Main wallet icon -->
+  <path d="M70,40H30c-2.2,0-4,1.8-4,4v30c0,2.2,1.8,4,4,4h40c2.2,0,4-1.8,4-4V44C74,41.8,72.2,40,70,40z M68,70H32V48h36V70z" fill="url(#gradient)" />
+  
+  <!-- Wallet handle -->
+  <path d="M74,55h-10c-2.2,0-4,1.8-4,4s1.8,4,4,4h10V55z" fill="url(#gradient)" />
+  
+  <!-- Dollar sign -->
+  <path d="M50,65c-1.1,0-2-0.9-2-2v-2h-2c-1.1,0-2-0.9-2-2s0.9-2,2-2h2v-2c0-1.1,0.9-2,2-2h0c3.3,0,6,2.7,6,6S53.3,65,50,65z" fill="white" />
+  
+  <!-- Arrow up -->
+  <path d="M45,35l5-10l5,10H45z" fill="url(#gradient)" />
+  
+  <!-- Arrow down -->
+  <path d="M55,25l-5,10l-5-10H55z" fill="url(#gradient)" />
+</svg>
